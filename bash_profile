@@ -1,0 +1,1 @@
+export Coffee_App_Backend_DATABASE_PASSWORD="coffee"

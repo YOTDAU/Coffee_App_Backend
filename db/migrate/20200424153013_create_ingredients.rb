@@ -3,9 +3,9 @@ class CreateIngredients < ActiveRecord::Migration[6.0]
     create_table :ingredients do |t|
       t.string :name
       t.text :description
-      t.string :category_id
-      t.string :integer
+      t.integer :category_id
       t.boolean :vegan
+      t.string :image
 
       t.timestamps
     end

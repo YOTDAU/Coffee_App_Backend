@@ -2,7 +2,7 @@ class UsersController < ApplicationController
 
     def index
         users = User.all 
-        render json: users, include: [:recipes, :favourites]
+        render json: users, include: [:recipes]
     end
 
     def show

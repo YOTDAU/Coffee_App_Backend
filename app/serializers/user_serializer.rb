@@ -3,5 +3,5 @@ class UserSerializer < ActiveModel::Serializer
   has_many :favourites
   # has_many :ingredients, through: :recipe_ingredients
 
-  attributes :id, :name, :email, :recipes, :favourites
+  attributes :id, :name, :email, :recipes
 end
